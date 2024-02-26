@@ -10,8 +10,6 @@ COPY package*.json ./
 # Install project dependencies
 RUN npm install
 
-RUN npm run test
-
 # Copy project files
 COPY . .
 
